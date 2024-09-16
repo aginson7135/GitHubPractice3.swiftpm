@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct task: Hashable{
+    var nameOfTask:String
+    
+}
