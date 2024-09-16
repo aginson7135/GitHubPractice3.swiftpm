@@ -9,13 +9,13 @@ import Foundation
 import SwiftUI
 
 struct HeaderView: View {
-    @Binding var tasks: [String] = []
-    @State var = ("entered string")
+    @Binding var tasks: tasks
+    @State var storage:String = ""
     var body: some View {
-//        HStack{
-//          TextField(text: <#T##Binding<String>#>, label: <#T##() -> Label#>)
+        HStack{
+            TextField(<#T##titleKey: LocalizedStringKey##LocalizedStringKey#>, text: <#T##Binding<String>#>)
         }
-        }
-    
+    }
+}
 
 
