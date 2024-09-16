@@ -5,6 +5,7 @@ struct ContentView: View {
         
         
     var body: some View {
+        HeaderView(Array: $Array)
         VStack {
             List(Array, id: \.self){
                 Array in
