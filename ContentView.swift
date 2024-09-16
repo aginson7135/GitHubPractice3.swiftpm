@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var Array:task = ["Mow the Lawn", "Feed The Dog", "Grocery Shop"]
+    @State var Array: [task] = [(GitHubPractice3.task(nameOfTask: "Mow the Lawn")), GitHubPractice3.task(nameOfTask: "Feed The Dog"), GitHubPractice3.task(nameOfTask: "Grocery Shop")]
     var body: some View {
         VStack {
             List(Array, id: \.self){
