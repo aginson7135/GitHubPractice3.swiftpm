@@ -13,7 +13,8 @@ struct HeaderView: View {
     @State var storage:String = ""
     var body: some View {
         HStack{
-            TextField(LocalizedStringKey, text: Binding<String>)
+            TextField("Textfield", text: $storage
+            )
         }
     }
 }
