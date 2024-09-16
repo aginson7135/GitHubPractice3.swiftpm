@@ -5,7 +5,7 @@
 //  Created by Evan T. Gross on 9/12/24.
 //
 
-import Foundation
+import SwiftUI
 
 struct task: Hashable{
     var nameOfTask:String
