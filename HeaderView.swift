@@ -9,12 +9,16 @@
 import SwiftUI
 
 struct HeaderView: View {
-    @Binding var tasks: task
-    @State var storage:String = ""
+    @Binding var Array: task
+    @State var storage: String = ""
     var body: some View {
         HStack{
-            TextField("Textfield", text: $storage
-            )
+            TextField("text", text: $storage)
+            Button(action: {
+                Array.nameOfTask.append(storage)
+            }, label: {
+                Text("Button")
+            })
         }
     }
 }
