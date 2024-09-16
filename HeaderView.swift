@@ -16,9 +16,11 @@ struct HeaderView: View {
             TextField("text", text: $storage)
             Button(action: {
                 Array.nameOfTask.append(storage)
+                    
             }, label: {
                 Text("Button")
             })
+            .background(.blue)
         }
     }
 }
